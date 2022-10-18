@@ -20,6 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit from gts4lvwifi device
 $(call inherit-product, device/samsung/gts4lvwifi/device.mk)
+$(call inherit-product, device/samsung/gts4lvwifi/lineage_car.mk)
+$(call inherit-product, device/samsung/gts4lvwifi/lineage_car_vendor.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
